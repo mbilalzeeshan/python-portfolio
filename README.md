@@ -1,16 +1,17 @@
-# Python Projects Portfolio
+# Python Projects
 
-Real, runnable Python projects. Each folder is a
-complete mini-project with its own README and run instructions.
+A collection of Python projects I built while learning: web scraping,
+Excel automation, debugging, and chatbots. Each folder is a complete
+mini-project with its own README and run instructions.
 
 ## Projects
 
-| Folder | What it is | Service |
-|---|---|---|
-| `web-scraper/` | Polite scraper for books.toscrape.com - extracts title, price, rating, availability into CSV + Excel | Web scraping and data extraction |
-| `excel-automation/` | Sales report generator - pandas + openpyxl turn raw CSV sales data into a formatted Excel report with charts | Excel / Google Sheets automation |
-| `bug-fixing-demo/` | Debugging showcase - a buggy script with 4 realistic bugs, the fixed version, and full bugfix notes | Python bug fixing and debugging |
-| `ai-chatbot/` | FAQ chatbot for a fictional bakery - LLM backend (OpenAI/Claude/Gemini) with keyword-matching fallback, zero keys needed | AI chatbot development |
+| Project | What it does |
+|---|---|
+| `web-scraper/` | Polite scraper for books.toscrape.com - extracts title, price, rating, availability into CSV + Excel |
+| `excel-automation/` | Sales report generator - pandas + openpyxl turn raw CSV sales data into a formatted Excel report with charts |
+| `bug-fixing-demo/` | Debugging exercise - a buggy script with 4 realistic bugs, the fixed version, and full bugfix notes |
+| `ai-chatbot/` | FAQ chatbot for a fictional bakery - LLM backend (OpenAI/Claude/Gemini) with keyword-matching fallback, zero keys needed |
 
 ## Tech stack
 
@@ -39,7 +40,7 @@ cd ../ai-chatbot && pip install -r requirements.txt && python bot.py
 
 The chatbot runs in keyword-matching mode with no API key. To use an LLM
 backend, export one of `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, or
-`GEMINI_API_KEY` first - the business owner always provides their own key.
+`GEMINI_API_KEY` first.
 
 ## Notes
 
