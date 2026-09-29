@@ -9,8 +9,8 @@ If a key is found, the question is answered by the LLM using ONLY the
 business FAQ as context. If no key is found, get_answer() returns None and
 bot.py falls back to keyword matching - so the chatbot runs with zero keys.
 
-IMPORTANT: API keys are never stored in this repo. The buyer (business
-owner) provides their own key via an environment variable, e.g.:
+IMPORTANT: API keys are never stored in this repo. Set your own key via an
+environment variable, e.g.:
     export OPENAI_API_KEY="sk-..."
 """
 
