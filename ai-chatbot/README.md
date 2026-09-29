@@ -1,15 +1,13 @@
-# FAQ Chatbot - Sunrise Bakery (fictional demo business)
+# FAQ Chatbot - Sunrise Bakery
 
-A terminal chatbot that answers customer questions from an FAQ file. It
-works two ways:
+A terminal chatbot I built for a fictional bakery. It answers customer
+questions from an FAQ file, two ways:
 
 1. **LLM mode** - if you set an API key, answers come from an LLM
    (OpenAI, Anthropic Claude, or Google Gemini) grounded on the FAQ, so it
    handles rephrased and follow-up questions.
 2. **Keyword mode** - with no API key set, it matches questions to FAQ
    entries by keyword overlap. Runs with zero setup.
-
-Portfolio project: **AI chatbot development**.
 
 ## How to run
 
@@ -22,7 +20,7 @@ Type `quit` to exit.
 
 ## Using an LLM backend (optional)
 
-The buyer provides their own API key - keys are never stored in the repo.
+Bring your own API key - keys are never stored in the repo.
 Set one environment variable before running:
 
 ```bash
