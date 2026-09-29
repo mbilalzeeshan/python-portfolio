@@ -1,9 +1,8 @@
 # Sales Report Generator
 
-Reads `sample_sales.csv` (60 realistic sales rows across 3 months) and
-builds a formatted Excel report with `pandas` + `openpyxl`.
-
-Portfolio project: **Excel / Google Sheets automation**.
+A project I built to learn Excel automation: reads `sample_sales.csv`
+(60 realistic sales rows across 3 months) and builds a formatted Excel
+report with `pandas` + `openpyxl`.
 
 ## What it produces: monthly_report.xlsx
 
