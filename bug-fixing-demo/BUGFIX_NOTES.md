@@ -1,7 +1,8 @@
 # Bugfix Notes - 4 realistic Python bugs, explained
 
-Portfolio project: **Python bug fixing and debugging**.
-Run `python buggy_version.py` to see every bug misbehave, then
+I wrote `buggy_version.py` with four classic Python bugs on purpose, then
+fixed them all in `fixed_version.py` - a debugging exercise. Run
+`python buggy_version.py` to see every bug misbehave, then
 `python fixed_version.py` to see the corrected behaviour.
 
 ---
