@@ -1,11 +1,9 @@
 # Web Scraper - Books to Scrape
 
-A polite Python web scraper built with `requests` and `BeautifulSoup`. It
-scrapes every book on [books.toscrape.com](http://books.toscrape.com)
+A polite Python web scraper I built to practice `requests` and
+`BeautifulSoup`. It scrapes every book on [books.toscrape.com](http://books.toscrape.com)
 (a public site made for practising scraping - no login, no paywall) and
 saves clean data to **books.csv** and **books.xlsx**.
-
-Portfolio project: **web scraping and data extraction**.
 
 ## What it extracts
 
