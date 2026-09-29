@@ -24,7 +24,7 @@ from openpyxl.utils import get_column_letter
 
 BASE_URL = "http://books.toscrape.com/catalogue/page-{}.html"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (portfolio demo) requests-based scraper"
+    "User-Agent": "Mozilla/5.0 (personal project) requests-based scraper"
 }
 DELAY_SECONDS = 0.7  # polite crawling: small pause between page requests
 
